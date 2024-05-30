@@ -1,4 +1,4 @@
-package com.apollo.bookstore.services.impls;
+package com.apollo.bookstore.services.impl;
 
 import java.util.Collection;
 import java.util.Set;
