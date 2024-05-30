@@ -26,14 +26,4 @@ public class UserController {
     return userRepository.findAll();
   }
 
-  // @PostMapping("/login")
-  // public Boolean login(@RequestBody User user) {
-  //   User foundUser = userRepository.findByUsername(user.getUsername());
-
-  //   if (foundUser != null && passwordEncoder.matches(user.getPassword(), foundUser.getPassword())) {
-  //     return true;
-  //   } else {
-  //     return false;
-  //   }
-  // }
 }
