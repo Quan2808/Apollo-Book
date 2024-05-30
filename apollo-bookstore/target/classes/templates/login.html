@@ -8,19 +8,19 @@
 </head>
 
 <body>
-  <form class="user" th:action="@{/do-login}" method="post">
-    <div class="form-group">   
-      <input type="email" name="username" class="form-control form-control-user" id="username"
-        aria-describedby="emailHelp" placeholder="Enter Email Address...">
-    </div>
-    <div class="form-group">
-      <input type="password" name="password" id="password" class="form-control form-control-user"
-        placeholder="Password">
-    </div>
-    <button type="submit" class="btn btn-primary btn-user btn-block">
-      Login
-    </button>
-    <hr>
+  <form name="f" th:action="@{/login}" method="post">
+    <fieldset>
+      <legend>Login Form</legend>
+      <div th:if="${param.error}" class="alert alert-error">Invalid</div>
+      <div th:if="${param.logout}" class="alert alert-success">Logged out.</div>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+      <label for="password">Password</label>
+      <input type="text" name="password" id="password">
+      <div class="form-action">
+        <button type="submit" class="btn">Log in</button>
+      </div>
+    </fieldset>
   </form>
 </body>
 
