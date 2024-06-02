@@ -1,16 +1,15 @@
 package com.apollo.bookstore.server.initializer;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
-
+import com.apollo.bookstore.library.models.Role;
+import com.apollo.bookstore.library.models.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.apollo.bookstore.library.models.Role;
-import com.apollo.bookstore.library.models.User;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
 
 public class UserDetailsInitializer  implements UserDetails {
 

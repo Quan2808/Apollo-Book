@@ -1,19 +1,17 @@
 package com.apollo.bookstore.library.services.impl;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import org.springframework.stereotype.Service;
-
 import com.apollo.bookstore.library.dto.UserDto;
 import com.apollo.bookstore.library.models.Role;
 import com.apollo.bookstore.library.models.User;
 import com.apollo.bookstore.library.repositories.RoleRepository;
 import com.apollo.bookstore.library.repositories.UserRepository;
 import com.apollo.bookstore.library.services.UserService;
-
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Service
 @RequiredArgsConstructor()

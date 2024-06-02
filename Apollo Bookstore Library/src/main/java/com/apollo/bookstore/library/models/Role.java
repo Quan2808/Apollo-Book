@@ -2,10 +2,13 @@ package com.apollo.bookstore.library.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.util.*;
-
-import lombok.*;
+import java.util.Set;
+import java.util.UUID;
 
 @Entity
 @Table(name = "roles")

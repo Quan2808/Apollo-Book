@@ -1,12 +1,5 @@
 package com.apollo.bookstore.library.services.impl;
 
-import java.util.HashSet;
-import java.util.Optional;
-import java.util.Set;
-
-import org.springframework.stereotype.Service;
-import org.springframework.util.ObjectUtils;
-
 import com.apollo.bookstore.library.dto.CartItemDto;
 import com.apollo.bookstore.library.dto.ProductDto;
 import com.apollo.bookstore.library.dto.ShoppingCartDto;
@@ -18,8 +11,13 @@ import com.apollo.bookstore.library.repositories.CartItemRepository;
 import com.apollo.bookstore.library.repositories.ShoppingCartRepository;
 import com.apollo.bookstore.library.services.ShoppingCartService;
 import com.apollo.bookstore.library.services.UserService;
-
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
+
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
 
 @Service
 @RequiredArgsConstructor

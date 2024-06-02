@@ -32,6 +32,7 @@ public class UserRoleInitializer {
     public void init() {
         initRoles();
         initAdminUser();
+        initCustomerUser();
     }
 
     private void initRoles() {

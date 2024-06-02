@@ -2,7 +2,6 @@ package com.apollo.bookstore.library.repositories;
 
 import com.apollo.bookstore.library.dto.CategoryDto;
 import com.apollo.bookstore.library.models.Category;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
