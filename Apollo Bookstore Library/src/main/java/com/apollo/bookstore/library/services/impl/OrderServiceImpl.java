@@ -1,6 +1,6 @@
 package com.apollo.bookstore.library.services.impl;
 
-import com.apollo.bookstore.library.entities.*;
+import com.apollo.bookstore.library.models.*;
 import com.apollo.bookstore.library.repositories.OrderDetailRepository;
 import com.apollo.bookstore.library.repositories.OrderRepository;
 import com.apollo.bookstore.library.repositories.UserRepository;

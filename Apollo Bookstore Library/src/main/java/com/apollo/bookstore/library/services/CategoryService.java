@@ -1,7 +1,7 @@
 package com.apollo.bookstore.library.services;
 
 import com.apollo.bookstore.library.dto.CategoryDto;
-import com.apollo.bookstore.library.entities.Category;
+import com.apollo.bookstore.library.models.Category;
 
 import java.util.List;
 import java.util.Optional;

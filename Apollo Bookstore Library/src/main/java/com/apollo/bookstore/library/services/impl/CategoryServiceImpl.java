@@ -1,7 +1,7 @@
 package com.apollo.bookstore.library.services.impl;
 
 import com.apollo.bookstore.library.dto.CategoryDto;
-import com.apollo.bookstore.library.entities.Category;
+import com.apollo.bookstore.library.models.Category;
 import com.apollo.bookstore.library.repositories.CategoryRepository;
 import com.apollo.bookstore.library.services.CategoryService;
 import lombok.RequiredArgsConstructor;

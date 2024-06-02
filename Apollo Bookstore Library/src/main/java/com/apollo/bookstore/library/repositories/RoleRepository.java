@@ -1,6 +1,6 @@
 package com.apollo.bookstore.library.repositories;
 
-import com.apollo.bookstore.library.entities.Role;
+import com.apollo.bookstore.library.models.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

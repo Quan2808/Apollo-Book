@@ -1,7 +1,7 @@
 package com.apollo.bookstore.library.services;
 
-import com.apollo.bookstore.library.entities.Order;
-import com.apollo.bookstore.library.entities.ShoppingCart;
+import com.apollo.bookstore.library.models.Order;
+import com.apollo.bookstore.library.models.ShoppingCart;
 
 import java.util.List;
 

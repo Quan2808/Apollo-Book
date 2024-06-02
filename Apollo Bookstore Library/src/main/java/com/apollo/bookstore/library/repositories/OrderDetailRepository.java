@@ -1,7 +1,7 @@
 package com.apollo.bookstore.library.repositories;
 
-import com.apollo.bookstore.library.entities.Order;
-import com.apollo.bookstore.library.entities.OrderDetail;
+import com.apollo.bookstore.library.models.Order;
+import com.apollo.bookstore.library.models.OrderDetail;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

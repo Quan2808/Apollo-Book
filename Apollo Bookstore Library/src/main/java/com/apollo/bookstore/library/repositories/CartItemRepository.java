@@ -1,6 +1,6 @@
 package com.apollo.bookstore.library.repositories;
 
-import com.apollo.bookstore.library.entities.CartItem;
+import com.apollo.bookstore.library.models.CartItem;
 import org.springframework.data.jpa.repository.*;
 
 public interface CartItemRepository extends JpaRepository<CartItem, Long> {

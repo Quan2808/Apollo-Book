@@ -2,7 +2,7 @@ package com.apollo.bookstore.library.services;
 
 import com.apollo.bookstore.library.dto.ProductDto;
 import com.apollo.bookstore.library.dto.ShoppingCartDto;
-import com.apollo.bookstore.library.entities.ShoppingCart;
+import com.apollo.bookstore.library.models.ShoppingCart;
 
 public interface ShoppingCartService {
     ShoppingCart addItemToCart(ProductDto productDto, int quantity, String username);

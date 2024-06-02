@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.apollo.bookstore.library.dto.ProductDto;
-import com.apollo.bookstore.library.entities.Product;
+import com.apollo.bookstore.library.models.Product;
 import com.apollo.bookstore.library.repositories.ProductRepository;
 import com.apollo.bookstore.library.services.ProductService;
 import com.apollo.bookstore.library.utils.ImageUploadUtil;

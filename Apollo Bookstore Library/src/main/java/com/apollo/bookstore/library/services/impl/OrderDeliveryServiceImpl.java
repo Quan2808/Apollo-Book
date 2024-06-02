@@ -1,9 +1,9 @@
 package com.apollo.bookstore.library.services.impl;
 
 import com.apollo.bookstore.library.dto.OrderDeliveryDto;
-import com.apollo.bookstore.library.entities.Order;
-import com.apollo.bookstore.library.entities.OrderDelivery;
-import com.apollo.bookstore.library.entities.User;
+import com.apollo.bookstore.library.models.Order;
+import com.apollo.bookstore.library.models.OrderDelivery;
+import com.apollo.bookstore.library.models.User;
 import com.apollo.bookstore.library.repositories.OrderDeliveryRepository;
 import com.apollo.bookstore.library.repositories.OrderRepository;
 import com.apollo.bookstore.library.services.OrderDeliveryService;

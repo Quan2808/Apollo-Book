@@ -1,4 +1,4 @@
-package com.apollo.bookstore.library.entities;
+package com.apollo.bookstore.library.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

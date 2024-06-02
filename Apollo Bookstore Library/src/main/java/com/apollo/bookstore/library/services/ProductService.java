@@ -1,7 +1,7 @@
 package com.apollo.bookstore.library.services;
 
 import com.apollo.bookstore.library.dto.ProductDto;
-import com.apollo.bookstore.library.entities.Product;
+import com.apollo.bookstore.library.models.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.web.multipart.MultipartFile;
 

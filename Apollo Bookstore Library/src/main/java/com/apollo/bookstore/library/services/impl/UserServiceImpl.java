@@ -7,8 +7,8 @@ import java.util.Set;
 import org.springframework.stereotype.Service;
 
 import com.apollo.bookstore.library.dto.UserDto;
-import com.apollo.bookstore.library.entities.Role;
-import com.apollo.bookstore.library.entities.User;
+import com.apollo.bookstore.library.models.Role;
+import com.apollo.bookstore.library.models.User;
 import com.apollo.bookstore.library.repositories.RoleRepository;
 import com.apollo.bookstore.library.repositories.UserRepository;
 import com.apollo.bookstore.library.services.UserService;

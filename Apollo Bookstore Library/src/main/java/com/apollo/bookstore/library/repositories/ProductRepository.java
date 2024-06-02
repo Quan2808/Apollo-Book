@@ -1,6 +1,6 @@
 package com.apollo.bookstore.library.repositories;
 
-import com.apollo.bookstore.library.entities.Product;
+import com.apollo.bookstore.library.models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

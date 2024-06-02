@@ -1,4 +1,4 @@
-package com.apollo.bookstore.library.entities;
+package com.apollo.bookstore.library.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

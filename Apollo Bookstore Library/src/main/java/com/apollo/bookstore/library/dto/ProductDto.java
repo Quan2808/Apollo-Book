@@ -1,6 +1,6 @@
 package com.apollo.bookstore.library.dto;
 
-import com.apollo.bookstore.library.entities.Category;
+import com.apollo.bookstore.library.models.Category;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

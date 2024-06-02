@@ -1,7 +1,7 @@
 package com.apollo.bookstore.library.services;
 
 import com.apollo.bookstore.library.dto.UserDto;
-import com.apollo.bookstore.library.entities.User;
+import com.apollo.bookstore.library.models.User;
 
 import java.util.List;
 
